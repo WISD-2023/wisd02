@@ -44,6 +44,8 @@ Route::get('/aa/a2',function (){
     return view('aa.a2');
 });
 Route::get('/cc/c1',function (){
-    return view('aa.a2');
+    return view('cc.c1');
 });
-
+Route::get('/cc/c1',function (){
+    return view('cc.c2');
+});
