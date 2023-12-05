@@ -60,3 +60,9 @@ Route::get('/ee/e1',function (){
 Route::get('/ee/e2',function (){
     return view('ee.e2');
 });
+Route::get('/ff/f1',function (){
+    return view('ff.f1');
+});
+Route::get('/ff/f2',function (){
+    return view('ff.f2');
+});
