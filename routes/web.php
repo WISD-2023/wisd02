@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 //git test666
+//git testgrrgrhht
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
